@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Great Idea Contact!</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Titillium+Web"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <header class="flex-header">
+      <nav>
+        <a href="/great-idea/services.html">Services</a>
+        <a href="">Product</a>
+        <a href="">Vision</a>
+        <a href="">Features</a>
+        <a href="/great-idea/index.html">About</a>
+        <a href="/great-idea/contact.html">Contact</a>
+      </nav>
+
+      <div class="inlineLogo">
+        <img class="logo" src="img/logo.png" alt="Great Idea! Company logo." />
+      </div>
+    </header>
+
+    <div class="container container-contact ">
+      <section class="flex-section">
+        <div class="height">
+          <h1 class="main-heading main-heading-contact">
+            Contact <span>Us</span> Today!
+          </h1>
+          <a class="button contact-button" href="#quote">Get A Quote </a>
+        </div>
+
+        <div>
+          <img
+            class="headerImg-contact"
+            src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt="Image of a code snippet."
+          />
+        </div>
+      </section>
+
+      <hr />
+      <main>
+        <div class="column">
+          <form id="quote">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height:170px"
+            ></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </main>
+      <footer>
+        <hr />
+        <br />
+        <h3>Contact</h3>
+        <address>
+          <p>123 Way 456 Street</p>
+          <p>Somewhere, USA</p>
+          <br />
+          <a href="tel:+1 (888) 888-8888">1 (888) 888-8888</a>
+          <br />
+          <a href="mailto:sales@greatidea.io">sales@greatidea.io</a>
+        </address>
+        <p class="copy">Copyright Great Idea! 2018</p>
+      </footer>
+    </div>
+  </body>
+</html>
